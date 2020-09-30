@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1065593563276",
+    "firebase_url": "https://mafcode-66ef4.firebaseio.com",
+    "project_id": "mafcode-66ef4",
+    "storage_bucket": "mafcode-66ef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065593563276:android:96ef4c7d53e7f299f2b3a9",
+        "android_client_info": {
+          "package_name": "com.example.mafcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065593563276-q9de659c5khti7d6rhmt88hsi6m9ecij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIfCH6oBenorjqSA5sEdpFJ5lMJvzpgK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065593563276-q9de659c5khti7d6rhmt88hsi6m9ecij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

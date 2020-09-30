@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screens/components/rounded_button.dart';
-import 'package:flutter_screens/constants.dart';
+import 'package:mafcode/components/rounded_button.dart';
+import 'package:mafcode/constants.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 class ForgetPassword extends StatefulWidget {
+  static const String id = 'forger_password';
   @override
   _ForgetPasswordState createState() => _ForgetPasswordState();
 }
@@ -29,9 +30,11 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                 TextField(
                   keyboardType: TextInputType.emailAddress,
                   textAlign: TextAlign.center,
-                  onChanged: (value) {},
+                  onChanged: (value) {
+
+                  },
                   decoration:
-                      kTextFieldDecoration.copyWith(hintText: 'Enter Email '),
+                  kTextFieldDecoration.copyWith(hintText: 'Enter Email '),
                 ),
                 SizedBox(
                   height: 24.0,
